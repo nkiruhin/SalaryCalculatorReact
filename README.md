@@ -22,10 +22,10 @@ A simple example project based on a test task
 <br />
 
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">README</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    README !
     <br />
     <a href="https://github.com/nkiruhin/SalaryCalculatorReact/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
@@ -52,7 +52,6 @@ A simple example project based on a test task
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
@@ -113,9 +112,8 @@ npm install
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For examples, please refer to the [Documentation](https://github.com/nkiruhin/SalaryCalculatorReact/wiki)_
 
 
 
