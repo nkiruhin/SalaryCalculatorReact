@@ -3,11 +3,51 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <LangVersion>7.2</LangVersion>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="front-calculator\src\Auth\Login.tsx" />
+    <None Remove="front-calculator\src\Employees\DeleteDialog.tsx" />
+    <None Remove="front-calculator\src\Employees\Employees.tsx" />
+    <None Remove="front-calculator\src\Employees\EmployesTable.tsx" />
+    <None Remove="front-calculator\src\Employees\FormErrorMessage.tsx" />
+    <None Remove="front-calculator\src\fetcher.ts" />
+    <None Remove="front-calculator\src\headMenu.tsx" />
+    <None Remove="front-calculator\src\Main\Fields.tsx" />
+    <None Remove="front-calculator\src\Main\Form.tsx" />
+    <None Remove="front-calculator\src\Main\Message.tsx" />
+    <None Remove="front-calculator\src\Positions\Positions.tsx" />
+    <None Remove="front-calculator\src\Positions\PositionTable.tsx" />
+    <None Remove="front-calculator\src\SalaryReport\SalaryReport.tsx" />
+    <None Remove="front-calculator\src\Sidebar.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="front-calculator\src\Auth\Login.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\HeadMenu.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Main\DeleteDialog.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Employees\Employees.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Employees\EmployesTable.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Employees\FormErrorMessage.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\fetcher.ts" />
+    <TypeScriptCompile Include="front-calculator\src\Main\Fields.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Main\Form.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Main\Message.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Positions\PositionTable.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Positions\Positions.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\SalaryReport\SalaryReport.tsx" />
+    <TypeScriptCompile Include="front-calculator\src\Sidebar.tsx" />
   </ItemGroup>
 
 </Project>

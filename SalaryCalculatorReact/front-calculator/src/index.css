@@ -1,0 +1,46 @@
+.App {
+    /*background-color:aliceblue ;*/
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    margin: 7px 0px 0px 0px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.link {
+    padding: 0px 10px 0px 10px;
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.App .header {
+    height: 3.5em;
+    width: 100%;
+}
+
+
+
+.App .body {
+    max-height: 88vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+    .App .body .content {
+        padding:10px;
+        min-width: 85%;
+    }
+
+
+
+    .App .body .sidebar {
+        width: auto;
+    }
