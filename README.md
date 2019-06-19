@@ -59,7 +59,8 @@ A simple example project based on a test task
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://user-images.githubusercontent.com/39044526/59762237-da3aef80-92a7-11e9-921d-7c16bfd234a3.png)
+
+![main](https://user-images.githubusercontent.com/39044526/59762643-b88e3800-92a8-11e9-90e0-85239f2207e2.png)
 
 The project is a payroll calculator for HR department. There are three groups (positions) of employees.
 Each employee may have a manager. Each employee except Employee may have subordinates.
